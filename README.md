@@ -22,7 +22,6 @@ A modern, premium medical emergency monitoring system dashboard built with Next.
 - **Recharts** (for analytics)
 - **Lucide React** (icons)
 - **next-themes** (theme management)
-- **Google Maps API** (for live map visualization)
 
 ## Getting Started
 
@@ -41,22 +40,7 @@ npm install
 yarn install
 ```
 
-2. Set up Google Maps API (optional but recommended):
-
-   - Go to [Google Cloud Console](https://console.cloud.google.com/)
-   - Create a new project or select an existing one
-   - Enable the **Maps JavaScript API**
-   - Go to **Credentials** and create an API Key
-   - Copy your API key
-   - Create a `.env.local` file in the root directory:
-     ```env
-     NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key_here
-     ```
-   - (Optional) Restrict the API key to your domain for security
-
-   **Note:** Without the API key, the map will show a placeholder. The dashboard will still work perfectly.
-
-3. Run the development server:
+2. Run the development server:
 
 ```bash
 npm run dev
@@ -64,7 +48,7 @@ npm run dev
 yarn dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -158,4 +142,3 @@ npm start
 
 This project is a prototype for the Hima Lifeline Bracelet system.
 
-# HIIMA-hackathon
